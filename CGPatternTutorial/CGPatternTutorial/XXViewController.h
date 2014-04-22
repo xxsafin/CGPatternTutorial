@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@class XXCoolPatternView;
 @interface XXViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet XXCoolPatternView *coolPatternView;
 
 @end

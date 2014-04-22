@@ -21,6 +21,7 @@
 		D70BBBB6190642C4002E9FB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70BBB98190642C3002E9FB3 /* UIKit.framework */; };
 		D70BBBBE190642C4002E9FB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D70BBBBC190642C4002E9FB3 /* InfoPlist.strings */; };
 		D70BBBC0190642C4002E9FB3 /* CGPatternTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D70BBBBF190642C4002E9FB3 /* CGPatternTutorialTests.m */; };
+		D70BBBCB19064B3E002E9FB3 /* XXCoolPatternView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70BBBCA19064B3E002E9FB3 /* XXCoolPatternView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D70BBBBB190642C4002E9FB3 /* CGPatternTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CGPatternTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		D70BBBBD190642C4002E9FB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D70BBBBF190642C4002E9FB3 /* CGPatternTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGPatternTutorialTests.m; sourceTree = "<group>"; };
+		D70BBBC919064B3E002E9FB3 /* XXCoolPatternView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXCoolPatternView.h; sourceTree = "<group>"; };
+		D70BBBCA19064B3E002E9FB3 /* XXCoolPatternView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXCoolPatternView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				D70BBBAA190642C3002E9FB3 /* XXViewController.m */,
 				D70BBBAC190642C3002E9FB3 /* Images.xcassets */,
 				D70BBB9B190642C3002E9FB3 /* Supporting Files */,
+				D70BBBC919064B3E002E9FB3 /* XXCoolPatternView.h */,
+				D70BBBCA19064B3E002E9FB3 /* XXCoolPatternView.m */,
 			);
 			path = CGPatternTutorial;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D70BBBCB19064B3E002E9FB3 /* XXCoolPatternView.m in Sources */,
 				D70BBBA5190642C3002E9FB3 /* XXAppDelegate.m in Sources */,
 				D70BBBAB190642C3002E9FB3 /* XXViewController.m in Sources */,
 				D70BBBA1190642C3002E9FB3 /* main.m in Sources */,
